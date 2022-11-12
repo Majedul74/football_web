@@ -9,23 +9,35 @@ body {
 
 }
 
+/* Global class--- */
 .d-flex {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Header */
-.header {
-    background-color: #2d25a0;
-    ;
+.button {
+    background-color: #e02c6d;
+    height: 45px;
+    width: 140px;
+
 }
 
-/* navigation bar */
+/* Global class end */
+
+/* Header ----*/
+.header {
+    background-color: #2d25a0;
+    padding: 0px 155px;
+
+}
+
+/* navigation bar----*/
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 40px 0px 0px 0px;
 
 }
 
@@ -33,6 +45,7 @@ body {
     display: flex;
     list-style-type: none;
     margin: 0px;
+    padding: 0px;
 }
 
 .nav-elements li {
@@ -43,14 +56,14 @@ body {
     text-decoration: none;
     color: white;
     font-size: 15px;
+    margin-right: 15px;
 }
 
-.button {
-    background-color: #e02c6d;
-    height: 45px;
-    width: 120px;
-
+.nav-elements li a:hover {
+    color: #e02c6d;
 }
+
+/* login button---- */
 
 .login-button {
 
@@ -64,4 +77,59 @@ body {
     width: 30px;
 }
 
+/* login button end */
+
 /* navigation bar end */
+
+/* header conteinar---- */
+
+/* left header--- */
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0 84px;
+}
+
+.header-text h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 60px;
+    margin: 0px;
+
+}
+
+/* left header end*/
+
+/* Watch live button---- */
+
+.header-left-elements {
+    flex: 50%;
+}
+
+.Watch-live-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 24px;
+
+}
+
+/* Watch-live-button end */
+
+/* right header--- */
+.header-right-elements {
+    flex: 50%;
+}
+
+.header-image {
+    width: 100%;
+
+}
+
+/* right header end */
+
+/* header conteinar end */
