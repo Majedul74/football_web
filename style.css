@@ -24,13 +24,16 @@ body {
 
 }
 
+.button:hover {
+    background-color: #6c6c6c;
+}
+
 /* Global class end */
 
 /* Header ----*/
 .header {
-    background-color: #2d25a0;
     padding: 0px 155px;
-
+    background-color: #2d25a0;
 }
 
 /* navigation bar----*/
@@ -151,6 +154,7 @@ body {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 30px;
     row-gap: 30px;
+
 }
 
 .player-box {
@@ -184,3 +188,103 @@ body {
 }
 
 /* players container end */
+
+/* upcoming matches---- */
+.upcoming-container {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 155px;
+    padding: 20px;
+}
+
+
+.upcoming-title h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.upcoming-title-bottom-line {
+    height: 3px;
+    width: 225px;
+    background-color: #e02c6d;
+}
+
+.upcoming-matchs {
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.match {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+
+.team-logo {
+    height: 50px;
+    width: 50px;
+    object-fit: contain;
+}
+
+.date {
+    font-weight: 400;
+    font-size: medium;
+    margin: 0px;
+}
+
+.vs {
+    font-weight: 400;
+    font-size: medium;
+    margin: 0px;
+}
+
+.time {
+    font-weight: 400;
+    font-size: medium;
+    margin: 0px;
+}
+
+.team-name {
+    font-weight: 400;
+    font-size: medium;
+    margin: 0px;
+    margin-top: 5px;
+}
+
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date-time {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.previous-next {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 30px;
+}
+
+.previous-next a {
+    background-color: #e02c6d;
+    font-size: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+
+.previous-next a:hover {
+    background-color: #6c6c6c;
+}
+
+
+/* upcoming matches end*/
