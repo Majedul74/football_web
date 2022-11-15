@@ -21,6 +21,7 @@ body {
     background-color: #e02c6d;
     height: 45px;
     width: 140px;
+    gap: 10px;
 
 }
 
@@ -194,6 +195,7 @@ body {
     background-color: white;
     border-radius: 5px;
     margin: 0px 155px;
+    margin-bottom: 90px;
     padding: 20px;
 }
 
@@ -286,5 +288,151 @@ body {
     background-color: #6c6c6c;
 }
 
-
 /* upcoming matches end*/
+
+/* iconic-container---- */
+
+.iconic-moments-container {
+    background-color: white;
+    border-radius: 5px;
+    margin: 0px 155px;
+    padding: 20px;
+    margin-bottom: 90px;
+}
+
+.iconic-moments-tital {
+    padding-bottom: 40px;
+}
+
+.iconic-moments-tital-text {
+    margin-bottom: 2px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.iconic-moments-bottom-line {
+    height: 3px;
+    width: 210px;
+    background-color: #e02c6d;
+}
+
+.iconic-moments {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+}
+
+.iconic-moments img {
+    height: 100%;
+    width: 100%;
+
+}
+
+
+/* iconic-container end */
+
+/* all-highlight container---- */
+
+.all-highlight-container {
+    display: flex;
+    margin: 0px 155px;
+}
+
+.all-highlight-text h1 {
+    font-size: 45px;
+    color: rgba(0, 0, 0, 0.8);
+    margin: 0px;
+
+}
+
+.all-highlight-text p {
+    color: #6c6c6c;
+    font-size: 15px;
+}
+
+.watch-now-button {
+
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
+
+.all-highlight-left {
+    align-self: center;
+    width: 50%;
+    padding: 20px 20px 20px 0px;
+}
+
+.all-highlight-right {
+    align-self: center;
+    width: 50%;
+    padding: 20px;
+
+}
+
+.all-highlight-right img {
+    height: 100%;
+    width: 100%;
+}
+
+/* all-highlight container end */
+
+/* footer----- */
+
+.footer {
+    background-color: white;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 155px;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+
+}
+
+.footer img {
+    width: 380px;
+    margin-bottom: 10px;
+}
+
+.social-icons ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    gap: 15px;
+}
+
+.social-icons ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-icons ul li img {
+
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #ccc;
+    color: #969bab;
+    border-radius: 50%;
+
+}
+
+.social-icons ul li img:hover {
+    background-color: #e02c6d;
+}
+
+.copyright p {
+    color: #555;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+/* footer end */
